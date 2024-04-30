@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volleyball Website</title>
+    <style>
+        body {
+            font-family: Arial, '新細明體', sans-serif;
+            background-color: orange; /* Main background color */
+            margin: 0;
+            padding: 20px;
+            color: black; /* Text color */
+        }
+        
+        #container {
+            max-width: 960px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        #headerpost {
+            margin-bottom: 30px;
+            background: linear-gradient(#000000, #888888); /* Header gradient */
+            overflow: hidden;
+            border-radius: 5px;
+        }
+        
+        #headerpost img {
+            width: 100%;
+            height: auto;
+        }
+        
+        #lead {
+            color: #ffffff;
+            padding: 20px;
+        }
+        
+        #lead h2 {
+            margin: 10px 0;
+        }
+        
+        .more,
+        .more_s {
+            display: inline-block;
+            color: #ffffff;
+            background-color: #333333; /* Button background color */
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+        
+        .more_s {
+            background-color: orange; /* Special button background color */
+        }
+        
+        .more_s:hover,
+        .more:hover {
+            background-color: #555555; /* Button hover background color */
+        }
+
+        h2 {
+            text-align: center;
+            color: #333; /* Heading color */
+            margin-top: 40px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #333;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .post {
+            float: left;
+            width: calc(33.33% - 20px); /* 3-column layout with margin */
+            margin-right: 20px;
+            margin-bottom: 25px;
+        }
+
+        .post:last-child {
+            margin-right: 0;
+        }
+
+        .post img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .post h2 {
+            font-size: 16px;
+            margin: 10px 0 5px;
+        }
+
+        .post p {
+            font-size: 12px;
+            margin: 5px 0;
+        }
+
+        footer {
+            background-color: black; /* Footer background color */
+            color: #ffffff;
+            text-align: center;
+            clear: both;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        footer small {
+            font-size: 12px;
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Volleyball Hub</h1>
+    </header>
+
+    <div id="container">
+        <div id="headerpost">
+            <img src="img/01.jpg" alt="Header Image">
+            <div id="lead">
+                <h2>排球運動興起!</h2>
+                <p>排球興起，好多學生參與社團活動!</p>
+                <div class="more"><a href="#">了解更多</a></div>
+            </div>
+        </div>
+
+        <h2>排球</h2>
+
+             <table border="1">
+        <tr>
+            <th>方面</th>
+            <th>描述</th>
+        </tr>
+        <tr>
+            <td>基本技术</td>
+            <td>
+                <ul>
+                    <li>发球：直接发球和浮球发球</li>
+                    <li>接发球：调整站位、正确传球动作</li>
+                    <li>传球：准确传球到二传手手上</li>
+                    <li>扣球：选择攻击角度和力度</li>
+                    <li>防守：快速反应和正确位置的站位</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>战术布局</td>
+            <td>
+                <ul>
+                    <li>摆放球员</li>
+                    <li>选择发球策略</li>
+                    <li>组织进攻</li>
+                    <li>应对对方的进攻</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>团队合作</td>
+            <td>
+                <ul>
+                    <li>相互配合</li>
+                    <li>沟通、信任和默契</li>
+                    <li>长时间的训练和磨合</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>技术统计</td>
+            <td>
+                <ul>
+                    <li>发球得分率</li>
+                    <li>扣球成功率</li>
+                    <li>传球准确率</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>心理素质</td>
+            <td>
+                <ul>
+                    <li>稳定的情绪</li>
+                    <li>良好的压力应对能力</li>
+                    <li>积极的心态</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>训练与体能</td>
+            <td>
+                <ul>
+                    <li>力量训练</li>
+                    <li>爆发力训练</li>
+                    <li>柔韧性训练</li>
+                    <li>技术练习</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+        </table>
+
+        <div id="content">
+            <div class="post">
+                <img src="img/02.jpg" alt="Post Image">
+                <h2>排球賽事</h2>
+                <p>台灣也陸陸續續興起排球，近年來更是舉辦了許多比賽，各個盛大，政府呼籲鼓勵學生在就學期間參與各項競賽，未來也將作ˋ為升學參考。</p>
+                <div class="more_s"><a href="#">閱讀更多</a></div>
+            </div>
+            
+            <div class="post">
+                <img src="img/04.jpg" alt="Post Image">
+                <h2>排球少年</h2>
+                <p>排球少年電影的上映，許多人紛紛效仿</p>
+                <div class="more_s"><a href="#">閱讀更多</a></div>
+            </div>
+            <div class="post">
+                <img src="img/05.jpg" alt="Post Image">
+                <h2>排球基本規則</h2>
+                <p>攔中手、主攻手、二傳手、自由球員，你了解多少呢?二傳，可謂團隊的</p>
+                <div class="more_s"><a href="#">閱讀更多</a></div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <small>Follow us: <a href="#">Facebook</a> <a href="#">Instagram</a> <a href="#">Line</a></small>
+        <small>© 2024 Volleyball Hub. All rights reserved. Designed by Your Name</small>
+    </footer>
+
+</body>
+</html>
